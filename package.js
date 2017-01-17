@@ -7,12 +7,12 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use(['accounts-facebook'], ['client', 'server']);
+    api.use(['accounts-facebook@1.0.11'], ['client', 'server']);
 
     //add dependency for overriding core
-    api.use('oauth-encryption', 'server', {weak: true});
-    api.use('oauth');
-    api.use('facebook', ['client', 'server']);
+    api.use('oauth-encryption@1.2.0', 'server', {weak: true});
+    api.use('oauth@1.1.11');
+    api.use('facebook@1.2.10', ['client', 'server']);
 
     api.add_files(["client.js"], 'client');
     api.add_files(["server.js"], 'server');
