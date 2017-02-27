@@ -1,4 +1,4 @@
-#meteor-fb-connect
+#meteor-facebook-connect
 
 ## Facebook Connect package to connect facebook users to existing users.
 

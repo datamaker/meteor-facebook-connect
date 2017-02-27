@@ -1,8 +1,8 @@
 {
   "name": "facebook-connect",
   "description": "Facebook Connect package to connect facebook users to existing users.",
-  "homepage": "https://github.com/datamaker/meteor-fb-connect",
+  "homepage": "https://github.com/datamaker/meteor-facebook-connect",
   "author": "JungBin Kwon <datamaker@urbanbase.com> (https://urbanbase.com)",
   "version": "0.1.5",
-  "git": "https://github.com/urbanbase/meteor-fb-connect.git"
+  "git": "https://github.com/urbanbase/meteor-facebook-connect.git"
 }
